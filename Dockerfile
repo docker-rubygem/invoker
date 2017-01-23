@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.3.2
+ENV VERSION=1.4.0
 
 RUN gem install invoker --version ${VERSION} --no-format-exec
 
